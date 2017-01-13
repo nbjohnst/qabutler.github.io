@@ -1,0 +1,116 @@
+.tableHeader {
+  height: 80px;
+  width: 480px;
+  background-color: black;
+  padding-left: 320px;
+  padding-top: 0.25px;
+}
+
+.headingClass { 
+  font-family: Arial;
+  color: teal;
+}
+
+.parentDiv {
+  display: flex;
+  width: 800px;
+}
+
+.child1 {
+  background-color: grey;
+  flex-direction: column;
+  flex: 1;
+}
+
+.child2 {
+  background-color: coral;
+  flex: 9;
+  border: 3px solid black;
+  border-top: none;
+}
+
+p:hover { 
+    color: white;
+}
+
+.closed {
+  display: none;
+}
+
+p {
+  margin-left: 13px;
+  font-family: Arial;
+/*   color: #330000; */
+}
+
+.topic {
+  margin-bottom: 5px;
+  margin-top: 5px;
+  margin-left: 7px;
+  background-color: aqua;
+  border-radius: 9px 2px 2px 9px;
+  padding-left: 10px;
+  border-bottom: solid black 2px;
+}
+
+.topic:hover { 
+  background-color: skyblue;
+  color: white;
+}
+
+.bottomMenuRow {
+  width: 800px;
+  height: 45px;
+  background-color: grey;
+}
+
+.bottomMenuContainer {
+  display: flex;
+  margin: 0 auto; 
+  width: 260px;
+  height: 40px;
+  background-color: pink;
+}
+
+.discoveryCall { 
+  width: 120px;
+  height: 40px;
+  background-color: teal;
+  border: 3px solid black;
+  border-top: none;
+  padding-left: 12px;
+}
+
+.followUpCall { 
+  width: 140px;
+  height: 40px;
+  background-color: #9966ff;
+  border: 3px solid black;
+  border-top: none;
+  border-left: none;
+  padding-right: 10px;
+}
+
+.voicemail { 
+  width: 120px;
+  height: 40px;
+  background-color: orange;
+  border: 3px solid black;
+  border-top: none;
+}
+
+.critical {
+  background-color: yellow;
+  color: red;
+}
+
+
+.orange {
+  background-color: orange;
+  text-decoration: line-through;
+}
+
+.connectTab {
+  transform:translate(0px,-7%);
+  height:107%
+}
